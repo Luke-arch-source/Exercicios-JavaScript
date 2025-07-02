@@ -1,4 +1,6 @@
-
+//Com base na tabela abaixo, escreva um algoritmo que simule uma Calculadora simples. O programa deverá ler dois números reais: numero1 e numero2, e na 
+//sequência ler o Código da operação matemática (número inteiro entre 1 e 4). A seguir, mostre na tela o resultado da operação entre os 2 números. 
+//Caso o número da operação esteja fora do intervalo entre 1 e 4, mostre a mensagem na tela Operação Inválida!
 
 
 
@@ -28,6 +30,8 @@ switch(operacao){
         result = n1 / n2;
         console.log(n1, " / ", n2, " = ", result);
         break;
+    default:
+        consolge.log("Operação Inválida!");
 }
 
 
