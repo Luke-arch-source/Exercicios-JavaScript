@@ -8,8 +8,8 @@ const readline = require("readline-sync");
 
 const leia = require("readline-sync");
 
-let n1 = readline.questionInt("Digite o primeiro número real: ");
-let n2 = readline.questionInt("Digite o segundo número real: ");
+let n1 = readline.questionFloat("Digite o primeiro número real: ");
+let n2 = readline.questionFloat("Digite o segundo número real: ");
 console.log("Operações matemáticas: Soma - 1, Subtração - 2, Multiplicação - 3, Divisão - 4");
 let operacao = readline.questionInt("Digite o código da operação matemática desejada: ");
 let result;
